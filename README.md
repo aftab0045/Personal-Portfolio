@@ -65,4 +65,4 @@ Contact -
 
 Aftab Attar - aftabattar0045@gmail.com
 
-Project Link: https://github.com/aftab0045/Personal-Portfolio/tree/main
+Project Link: https://aftab-portfolio-web.netlify.app/
