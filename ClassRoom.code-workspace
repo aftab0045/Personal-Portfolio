@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/ClassRoom"
+		},
+		{
+			"path": "../../../Desktop/Calculator"
+		},
+		{
+			"path": "../../../Desktop/Portfolio"
+		},
+		{
+			"path": "../../../Desktop/JavaScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript"
+	}
+}

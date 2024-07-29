@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3095599e7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"></div>
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p class="Hello">Hello,</p>
+            <h1> I'm <span>Aftab</span></h1>
+            <h3>Front-End Developer</h3>
+            <p>Passionate about pixels and pushing the boundaries of web design.<br> I'm Aftab, a front-end developer with a love for creating visually <br> stunning and highly functional websites. Explore my portfolio  <br> and let's embark on a design adventure! </p>
+        </div>
+    </div>
+
+   <!---------About Section--------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/aftab1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Front-End Web Developer , I am programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team,And lead the team. You'll learn faster and much more. As the saying goes:'Two heads are better than One'. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Data Structure Algorithms In Java and OOP's</li>
+                            <li><span>C++</span><br>Basics of CPP</li>
+                            <li><span>HTML</span><br>HTML</li>
+                            <li><span>CSS</span><br>CSS</li>
+                            <li><span>DSA</span><br>Problem Solving And Algorithms</li>
+                            <li><span>SQL</span><br>Basics of Databases</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>AISSMS IOIT</span><br>BE - Computer Engineering | CGPA: 7.5</li>
+                            <li><span>Sri Chaitanya Jr. Kalashala</span><br>HSC | TSBIE | Percentage: 92.90%</li>
+                            <li><span>Bharat Vidyalaya School</span><br>SSC | State Board | Percentage: 87%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!---------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>A diligent Java developer with a strong foundation in core Java programming. Proficient in writing clean, efficient code and solving logical problems. Well-versed in fundamental concepts such as variables, loops, and functions. Exhibits a keen interest in expanding skills and staying current with Java advancements. Eager to contribute to projects, dedicated to continuous learning, and a valuable asset for building solid Java-based applications.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front-End Developer</h2>
+                    <p>A skilled front-end web developer with expertise in HTML, CSS, and JavaScript. Proficient in creating visually stunning and responsive user interfaces. Excels in translating design concepts into seamless, interactive web experiences. Demonstrates a keen eye for detail, ensuring pixel-perfect implementation. A collaborative team player, committed to staying abreast of industry trends and enhancing user engagement through intuitive and dynamic front-end solutions. Passionate about delivering high-quality, user-centric designs for an enhanced online experience.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Data Structure And Problem Solving</h2>
+                    <p>Proficient in Data Structures and Problem Solving, adept at designing efficient algorithms. Demonstrates strong analytical and problem-solving skills, capable of optimizing code for better performance. Experienced in implementing data structures such as arrays, linked lists, trees, and graphs. Excels in algorithmic thinking and resolving complex programming challenges. Possesses a solid foundation in computer science concepts, ensuring the development of scalable and optimized solutions for diverse programming problems.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/face6.jpg">
+                <div class="layer">
+                    <h3>Face Recognition Attendance System</h3>
+                    <p>Skilled in developing attendance systems with precise face recognition, ensuring secure and efficient tracking for streamlined management.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/insta m5.jpg">
+                <div class="layer">
+                    <h3>Instagram clone</h3>
+                    <p>Expertise in crafting an Instagram clone with dynamic user interfaces, real-time updates, and seamless photo sharing for engaging social experiences.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work insta">
+                <img src="Images/fitness web 2.jpg">
+                <div class="layer">
+                    <h3>Health Fitness Website</h3>
+                    <p>Masterfully developed a health fitness website, seamlessly integrating wellness guidance and an online store for fitness products, ensuring holistic well-being.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-----------contact------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aftabattar0045@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9175569884</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aftab-attar-344094268/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mr_aftab____0045/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="AFTAB RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwhH9pm1O0XTTgdAJo3vRhW3-f7b_F36Px2DPfFpnKV5tvC3Ad_adO6NdwG9JkNhFJG/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
