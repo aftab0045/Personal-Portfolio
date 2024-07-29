@@ -4,14 +4,20 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 
 Features -
 1.Responsive Design: The website is designed to be fully responsive, ensuring it looks great on all devices including desktops, tablets, and mobile phones.
+
 2.Projects Showcase: Display of my projects with detailed descriptions and links.
+
 3.About Me: A section about my background, skills, and experiences.
+
 4.Contact Form: A form for visitors to get in touch with me directly through the website.
 
 
 Technologies Used -
+
 1.HTML: For the structure and content of the website.
+
 2.CSS: For styling and layout.
+
 3.JavaScript: For interactivity and dynamic content.
 
 
@@ -24,8 +30,10 @@ You need a web browser to view the website.
 
 
 Installation -
+
 1. Clone the repo
 https://github.com/aftab0045/Personal-Portfolio/tree/main
+
 2. Open index.html in your preferred web browser
 
 
