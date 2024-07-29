@@ -3,16 +3,16 @@ Personal Portfolio Website
 Welcome to my personal portfolio website! This website showcases my projects, skills, and experiences. It is fully responsive and built using HTML, CSS, and JavaScript.
 
 Features -
--Responsive Design: The website is designed to be fully responsive, ensuring it looks great on all devices including desktops, tablets, and mobile phones.
--Projects Showcase: Display of my projects with detailed descriptions and links.
--About Me: A section about my background, skills, and experiences.
--Contact Form: A form for visitors to get in touch with me directly through the website.
+1.Responsive Design: The website is designed to be fully responsive, ensuring it looks great on all devices including desktops, tablets, and mobile phones.
+2.Projects Showcase: Display of my projects with detailed descriptions and links.
+3.About Me: A section about my background, skills, and experiences.
+4.Contact Form: A form for visitors to get in touch with me directly through the website.
 
 
 Technologies Used -
--HTML: For the structure and content of the website.
--CSS: For styling and layout.
--JavaScript: For interactivity and dynamic content.
+1.HTML: For the structure and content of the website.
+2.CSS: For styling and layout.
+3.JavaScript: For interactivity and dynamic content.
 
 
 Getting Started -
@@ -25,7 +25,7 @@ You need a web browser to view the website.
 
 Installation -
 1. Clone the repo
- [git clone https://github.com/your-username/your-repo-name.git](https://github.com/aftab0045/Personal-Portfolio/edit/main/README.md)
+https://github.com/aftab0045/Personal-Portfolio/tree/main
 2. Open index.html in your preferred web browser
 
 
@@ -45,6 +45,6 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Contact -
 
-Your Name - Aftab Attar - aftabattar0045@gmail.com
+Aftab Attar - aftabattar0045@gmail.com
 
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/aftab0045/Personal-Portfolio/edit/main/README.md)
+Project Link: https://github.com/aftab0045/Personal-Portfolio/tree/main
